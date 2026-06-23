@@ -1,0 +1,2 @@
+dataset,teacher_AUC_fixed,teacher_AUC_tuned,cv_auc,best_params,student_AUC_lambda0,student_AUC_lambda2p5
+german,0.8088095238095239,0.8116666666666666,0.7949455417553141,"{'subsample': 0.6, 'n_estimators': 500, 'min_child_weight': 1, 'max_depth': 6, 'learning_rate': 0.01, 'gamma': 0, 'colsample_bytree': 0.6}",0.7996785714285715,0.7916428571428571

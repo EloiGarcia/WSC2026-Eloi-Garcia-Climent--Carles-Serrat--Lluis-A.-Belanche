@@ -1,0 +1,1 @@
+{"dataset": "bank", "teacher_fixed": 0.928567327917539, "teacher_tuned": 0.9342904287694437, "cv": 0.934630131821579, "best": {"subsample": 0.8, "n_estimators": 500, "min_child_weight": 3, "max_depth": 8, "learning_rate": 0.02, "gamma": 0.5, "colsample_bytree": 0.8}}

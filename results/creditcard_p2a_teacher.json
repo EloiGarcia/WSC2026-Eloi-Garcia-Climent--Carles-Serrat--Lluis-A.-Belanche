@@ -1,0 +1,1 @@
+{"dataset": "creditcard", "teacher_fixed": 0.7777540363592031, "teacher_tuned": 0.7800259019772553, "cv": 0.7847435046204322, "best": {"subsample": 0.8, "n_estimators": 800, "min_child_weight": 5, "max_depth": 5, "learning_rate": 0.01, "gamma": 0.1, "colsample_bytree": 0.8}}
