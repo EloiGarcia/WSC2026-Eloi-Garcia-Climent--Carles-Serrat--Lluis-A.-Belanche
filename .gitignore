@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------------------
+# Datasets — NOT redistributed (UCI license). Fetch via export_data.py, or place
+# the raw UCI files in ./csvs/ (german.data, bank-full.csv,
+# "default of credit card clients.xls"). The loaders read ./csvs automatically.
+# ---------------------------------------------------------------------------
+/csvs/
+/data/
+*.xls
+*.data
+*.data-numeric
+
+# Regenerable caches / large binaries (teacher+SHAP cache, service-time samples)
+*.npz
+results/_teacher_cache/
+
+# Stale / superseded intermediate outputs
+results/german_ofat_runs.csv
+_smoke/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX build artifacts (the paper compiles on Overleaf)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.synctex.gz
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.pdf
